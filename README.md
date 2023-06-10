@@ -39,7 +39,7 @@ Les localisations ne contenant ni "Paris", ni "75", ni "France", ni le nom d'une
 *Récupération des hashtags*
 
 Pour analyser les hashtags les plus utilisés et leur fréquence, les hashtags ont été extraits de la variable "Tweets" et ajoutés à une nouvelle variable appelée "Hashtags" dans le dataframe. Les valeurs vides ont été remplacées par "No Hashtag used". Un autre dataframe a été créé pour stocker les hashtags distincts et le nombre de fois où ils ont été utilisés.
-df_tweets après nettoayage
+
 
 ## Analyse de sentiments
 
@@ -58,7 +58,7 @@ La distribution de la variable "Sentiment" est la suivante :
 
 Son utilité est de représenter graphiquement les mots les plus fréquents dans un texte : 
 
-
+![Wordcloud](
 Wordcloud à partir des tweets
 
 
