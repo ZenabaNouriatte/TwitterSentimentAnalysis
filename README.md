@@ -51,7 +51,17 @@ Pipeline pré-processingDans ce projet, l'analyse de sentiment a été réalisé
 La variable "data_clean" a été traitée par une pipeline NLP qui a extrait la polarité du sentiment de chaque tweet et déterminé le sentiment global associé à chaque tweet (positif, négatif ou neutre).
 
 Dans cette approche, les tweets avec une polarité supérieure à 0 sont considérés comme positifs, ceux avec une polarité inférieure à 0 sont considérés comme négatifs, et les tweets avec une polarité égale à 0 correspondent à un sentiment neutre.
+
 La distribution de la variable "Sentiment" est la suivante :
+
+Positif    26176
+
+Neutre     17435 
+
+Négatif     9587
+
+Name: Sentiment, dtype: int64
+
 
 
 *Worcloud*. 
@@ -59,6 +69,8 @@ La distribution de la variable "Sentiment" est la suivante :
 Son utilité est de représenter graphiquement les mots les plus fréquents dans un texte : 
 
 ![Wordcloud](https://github.com/ZenabaNouriatte/TwitterSentimentAnalysis/blob/main/Wordcloud.png)
+
+
 Wordcloud à partir des tweets
 
 
