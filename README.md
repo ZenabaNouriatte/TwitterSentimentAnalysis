@@ -66,10 +66,8 @@ Wordcloud à partir des tweets
 
 Après avoir recueilli les données puis les avoir modélisées, nous pouvons désormais les visualiser. 
 Pour cela, j'ai choisi Power BI, un outil puissant et populaire pour la visualisation des données. 
-
-Voici le dashboard réalisé :
-
-Dashboard de l'analyse de sentiments
+![Dashboard](https://github.com/ZenabaNouriatte/TwitterSentimentAnalysis/blob/main/Dashboard%20Power%20BI.png)
+Démo
 
 ## Insights 
 
