@@ -58,7 +58,7 @@ La distribution de la variable "Sentiment" est la suivante :
 
 Son utilité est de représenter graphiquement les mots les plus fréquents dans un texte : 
 
-![Wordcloud](
+![Wordcloud](https://github.com/ZenabaNouriatte/TwitterSentimentAnalysis/blob/main/Wordcloud.png)
 Wordcloud à partir des tweets
 
 
