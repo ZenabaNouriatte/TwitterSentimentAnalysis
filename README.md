@@ -28,7 +28,7 @@ Les informations extraites comprenaient l'URL du tweet, l'utilisateur, la vérif
 
 
 
-Les données collectées ont ensuite été nettoyées afin d'éliminer les valeurs manquantes et les variables inutiles. 
+Les données collectées ont ensuite été nettoyées avec la librairie pandas afin d'éliminer les valeurs manquantes et les variables inutiles. 
 La variable "Localisation" a subi plusieurs modifications :
 Les emojis (notamment les drapeaux) ont été supprimés.
 Les valeurs manquantes ont été remplacées par "No Location".
@@ -46,8 +46,8 @@ Pour analyser les hashtags les plus utilisés et leur fréquence, les hashtags o
 L'analyse de sentiment consiste à évaluer les opinions, émotions et attitudes exprimées dans un texte afin de déterminer si elles sont positives, négatives ou neutres. 
 Elle permet de comprendre les sentiments du public, d'évaluer la réputation d'une marque, de détecter les tendances émergentes et de guider les décisions.
 
-Avant de procéder à l'analyse de sentiment, les données sont préparées. Dans ce projet, le prétraitement a été réalisé sur la variable "Tweets" en appliquant différentes actions à l'aide d'une fonction : suppression des caractères spéciaux, de la ponctuation, des emojis, tokenisation, lemmatisation, suppression des chiffres, des mots vides et des liens. Les tweets ainsi traités sont stockés dans une variable appelée "data_clean".
-Pipeline pré-processingDans ce projet, l'analyse de sentiment a été réalisée en utilisant la librairie Textblob. 
+Avant de procéder à l'analyse de sentiment, les données sont préparées. Toujours grâce à python, le prétraitement a été réalisé sur la variable "Tweets" en appliquant différentes actions à l'aide d'une fonction : suppression des caractères spéciaux, de la ponctuation, des emojis, tokenisation, lemmatisation, suppression des chiffres, des mots vides et des liens. Les tweets ainsi traités sont stockés dans une variable appelée "data_clean".
+Pipeline pré-processingL'analyse de sentiment a été réalisée en utilisant la librairie Textblob. 
 La variable "data_clean" a été traitée par une pipeline NLP qui a extrait la polarité du sentiment de chaque tweet et déterminé le sentiment global associé à chaque tweet (positif, négatif ou neutre).
 
 Dans cette approche, les tweets avec une polarité supérieure à 0 sont considérés comme positifs, ceux avec une polarité inférieure à 0 sont considérés comme négatifs, et les tweets avec une polarité égale à 0 correspondent à un sentiment neutre.
